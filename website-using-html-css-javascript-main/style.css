@@ -133,6 +133,7 @@ section {
     transition: .5s ease;
 }
 
+
 .btn:hover {
     background: #fff;
     color: #000;
@@ -182,6 +183,9 @@ section {
     background: crimson;
     transform: translateX(-50%);
 }
+.about {
+    background: #000016;
+}
 
 .about .content {
     position: relative;
@@ -189,26 +193,32 @@ section {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    background: #fff;
 }
 
 .about .content .col-left {
     position: relative;
     width: 45%;
+    background-color: #fff;
 }
 
 .about .content .col-right {
     position: relative;
-    width: 45%;
+    top: 0%;
+    width: 100%;
+    background-color: #fff;
 }
 
 .about .content .img-card {
     position: relative;
     width: 100%;
     min-height: 450px;
+    background-color: #fff;
+    /* min-height: 450px; */
 }
 
 .about .content .img-card img {
-    position: absolute;
+    position: relative; /*absolute*/
     top: 0;
     left: 0;
     width: 100%;
@@ -218,6 +228,60 @@ section {
 }
 
 .about .content-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.skills {
+    background: #000016;
+}
+
+.skills .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+}
+/*--------------------------------------------------------------------- */
+.yutuqlar .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.yutuqlar .content .col-left {
+    position: relative;
+    width: 45%;
+}
+
+.yutuqlar .content .col-right {
+    position: relative;
+    width: 45%;
+}
+
+.yutuqlar .content .img-card {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+}
+
+.yutuqlar .content .img-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.yutuqlar .content-title {
     font-size: 26px;
     font-weight: 800;
     margin-bottom: 20px;
@@ -235,6 +299,8 @@ section {
     color: #fff;
     margin-top: 20px;
 }
+
+/* -------------------------------------------------------------------- */
 
 .skills .col-left {
     position: relative;
@@ -290,22 +356,22 @@ section {
 }
 
 .skills .css::before {
-    width: 85%;
+    width: 80%;
     background: #0C73B8;
 }
 
 .skills .javascript::before {
-    width: 30%;
+    width: 35%;
     background: #E3A324;
 }
 
 .skills .jquery::before {
-    width: 50%;
+    width: 60%;
     background: #30DD6D;
 }
 
 .skills .php::before {
-    width: 10%;
+    width: 15%;
     background: #6D7EB8;
 }
 
